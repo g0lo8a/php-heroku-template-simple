@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 session_start();
 
-function clean($value = "")
+function clean(string $value): string
 {
     $value = trim($value);
     $value = stripslashes($value);
