@@ -1,3 +1,3 @@
 <?php
 
-echo 'I\'m alive!';
+echo 'Hello world!';
